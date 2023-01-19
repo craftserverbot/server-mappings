@@ -5,6 +5,7 @@ use std::fs;
 use std::path::Path;
 
 #[derive(Deserialize)]
+#[serde(rename_all = "camelCase")]
 #[allow(dead_code)]
 struct ServerMapping {
     id: String,
@@ -53,7 +54,11 @@ fn main() {
     for server_dir in server_dirs {
         let mapping = server_dir.unwrap().path().join("metadata.json");
         let mapping = fs::read_to_string(mapping).unwrap();
-        let mapping: ServerMapping = serde_json::from_str(&mapping).unwrap();
+        let mut mapping: ServerMapping = serde_json::from_str(&mapping).unwrap();
+
+        if let Some(primary_address) = mapping.primary_address.take() {
+            mapping.addresses.push(primary_address);
+        }
 
         for address in mapping.addresses {
             if duplicate_detection.contains(&address) {
@@ -72,7 +77,7 @@ fn main() {
 /// Sourced from https://github.com/LunarClient/ServerMappings
 /// Edit build.rs, not this file.
 
-pub static SERVER_MAPPINGS: phf::Map<&'static str, &'static str> = {};
+static SERVER_MAPPINGS: phf::Map<&'static str, &'static str> = {};
 "#,
             builder.build()
         ),
