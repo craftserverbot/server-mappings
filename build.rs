@@ -3,6 +3,7 @@ use std::collections::HashSet;
 use std::env;
 use std::fs;
 use std::path::Path;
+use std::process::Command;
 
 #[derive(Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -46,6 +47,16 @@ fn main() {
     let manifest_dir = env::var_os("CARGO_MANIFEST_DIR").unwrap();
     let mappings_dir = Path::new(&manifest_dir).join("mappings").join("servers");
 
+    let mappings_hash = Command::new("git")
+        .arg("rev-parse")
+        .arg("--short")
+        .arg("HEAD")
+        .current_dir(&mappings_dir)
+        .output()
+        .expect("failed to get git commit hash of mappings")
+        .stdout;
+    let mappings_hash = String::from_utf8(mappings_hash).unwrap().trim().to_string();
+
     let server_dirs = mappings_dir.read_dir().unwrap();
 
     let mut builder = phf_codegen::Map::new();
@@ -77,8 +88,11 @@ fn main() {
 /// Sourced from https://github.com/LunarClient/ServerMappings
 /// Edit build.rs, not this file.
 
+pub const VERSION: &str = "{}";
+
 static SERVER_MAPPINGS: phf::Map<&'static str, &'static str> = {};
 "#,
+            mappings_hash,
             builder.build()
         ),
     )
