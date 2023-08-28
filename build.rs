@@ -69,7 +69,7 @@ fn main() {
 
         // remove duplicates
         let deduped = json5::from_str::<serde_json::Value>(&mapping).unwrap();
-        let mapping = json5::to_string(&deduped).unwrap();
+        let mapping = serde_json::to_string(&deduped).unwrap();
 
         let mut mapping: ServerMapping = serde_json::from_str(&mapping).unwrap();
 
