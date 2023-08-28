@@ -64,7 +64,13 @@ fn main() {
 
     for server_dir in server_dirs {
         let mapping = server_dir.unwrap().path().join("metadata.json");
+        eprintln!("{mapping:?}");
         let mapping = fs::read_to_string(mapping).unwrap();
+
+        // remove duplicates
+        let deduped = json5::from_str::<serde_json::Value>(&mapping).unwrap();
+        let mapping = json5::to_string(&deduped).unwrap();
+
         let mut mapping: ServerMapping = serde_json::from_str(&mapping).unwrap();
 
         if let Some(primary_address) = mapping.primary_address.take() {
