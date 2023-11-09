@@ -2,3 +2,4 @@
 	path = mappings
 	url = https://github.com/LunarClient/ServerMappings.git
     branch = master
+	shallow = true
