@@ -3,7 +3,7 @@ use std::collections::HashSet;
 use std::env;
 use std::fs;
 use std::path::Path;
-use std::process::Command;
+use std::path::PathBuf;
 
 #[derive(Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -45,34 +45,16 @@ fn main() {
     let dest_path = Path::new(&out_dir).join("mappings.rs");
 
     let manifest_dir = env::var_os("CARGO_MANIFEST_DIR").unwrap();
-    let mappings_dir = Path::new(&manifest_dir).join("mappings").join("servers");
-
-    let mappings_hash = Command::new("git")
-        .arg("rev-parse")
-        .arg("--short")
-        .arg("HEAD")
-        .current_dir(&mappings_dir)
-        .output()
-        .expect("failed to get git commit hash of mappings")
-        .stdout;
-    let mappings_hash = String::from_utf8(mappings_hash).unwrap().trim().to_string();
-
-    let server_dirs = mappings_dir.read_dir().unwrap();
+    let servers_file = PathBuf::from(manifest_dir).join("servers.json");
 
     let mut builder = phf_codegen::Map::new();
     let mut duplicate_detection = HashSet::new();
 
-    for server_dir in server_dirs {
-        let mapping = server_dir.unwrap().path().join("metadata.json");
-        eprintln!("{mapping:?}");
-        let mapping = fs::read_to_string(mapping).unwrap();
+    let mappings = fs::read_to_string(servers_file).unwrap();
 
-        // remove duplicates
-        let deduped = json5::from_str::<serde_json::Value>(&mapping).unwrap();
-        let mapping = serde_json::to_string(&deduped).unwrap();
+    let mappings: Vec<ServerMapping> = serde_json::from_str(&mappings).unwrap();
 
-        let mut mapping: ServerMapping = serde_json::from_str(&mapping).unwrap();
-
+    for mut mapping in mappings {
         if let Some(primary_address) = mapping.primary_address.take() {
             mapping.addresses.push(primary_address);
         }
@@ -94,11 +76,8 @@ fn main() {
 /// Sourced from https://github.com/LunarClient/ServerMappings
 /// Edit build.rs, not this file.
 
-pub const VERSION: &str = "{}";
-
 static SERVER_MAPPINGS: phf::Map<&'static str, &'static str> = {};
 "#,
-            mappings_hash,
             builder.build()
         ),
     )

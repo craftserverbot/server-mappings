@@ -31,12 +31,26 @@ mod tests {
     }
 
     #[test]
+    fn cubecraft() {
+        let result = get_pretty_name("play.cubecraft.net");
+        assert_eq!(result, Some("CubeCraft Games"));
+    }
+
+    #[test]
+    fn cubecraft_bare() {
+        let result = get_pretty_name("cubecraft.net");
+        assert_eq!(result, Some("CubeCraft Games"));
+    }
+
+    #[test]
+    #[ignore = "mineplex has been shut down"]
     fn mineplex() {
         let result = get_pretty_name("us.mineplex.com");
         assert_eq!(result, Some("Mineplex"));
     }
 
     #[test]
+    #[ignore = "mineplex has been shut down"]
     fn mineplex_bare() {
         let result = get_pretty_name("mineplex.com");
         assert_eq!(result, Some("Mineplex"));

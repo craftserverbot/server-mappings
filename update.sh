@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-git submodule update --remote
+curl -fsSL https://servermappings.lunarclientcdn.com/servers.json > servers.json
 cargo build
 cargo test
 git add .
