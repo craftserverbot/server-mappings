@@ -1,6 +1,6 @@
 [package]
 name = "server-mappings"
-version = "2.0.0+2024-03-10"
+version = "2.0.0+2024-03-31"
 edition = "2021"
 
 [build-dependencies]

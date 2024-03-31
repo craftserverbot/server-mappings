@@ -3097,13 +3097,14 @@
         "primaryColor": "#930031",
         "secondaryColor": "#facc48",
         "minecraftVersions": [
-            "1.19",
-            "1.19.2",
-            "1.19.3",
             "1.19.4",
-            "1.20.2"
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
         ],
-        "primaryMinecraftVersion": "1.19.2",
+        "primaryMinecraftVersion": "1.19.4",
         "primaryRegion": "EU",
         "regions": [
             "EU"
@@ -3528,6 +3529,99 @@
         "enriched": false
     },
     {
+        "id": "bte",
+        "name": "Build The Earth",
+        "website": "https://buildtheearth.net",
+        "description": "Recreating The Whole Earth In Minecraft",
+        "addresses": [
+            "buildtheearth.net",
+            "nabte.net",
+            "bte-germany.de",
+            "andromedacraft.com",
+            "buildtheearth.ru",
+            "nordicbalticbte.net",
+            "alps-bte.com",
+            "btecanada.net",
+            "bteuk.net",
+            "btefrance.fr",
+            "bteoce.com",
+            "139.99.91.188",
+            "btehkmu.net",
+            "142.202.222.202",
+            "btemexca.net",
+            "bteconosur.com",
+            "bteromania.ro",
+            "bteukraine.com",
+            "btekorea.net"
+        ],
+        "primaryAddress": "buildtheearth.net",
+        "minecraftVersions": [
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.20.4",
+        "primaryColor": "#1971C2",
+        "secondaryColor": "#2F9E44",
+        "primaryLanguage": "en",
+        "languages": [
+            "en",
+            "es-EN",
+            "it",
+            "tr",
+            "ar",
+            "zh-CN",
+            "nl",
+            "fr",
+            "de",
+            "el",
+            "ja",
+            "ko",
+            "lt",
+            "no",
+            "pl"
+        ],
+        "primaryRegion": "NA",
+        "regions": [
+            "AF",
+            "AS",
+            "EU",
+            "NA",
+            "OC",
+            "SA"
+        ],
+        "gameTypes": [
+            "Creative"
+        ],
+        "presentationVideo": "yge606ivgls",
+        "socials": {
+            "twitter": "buildtheearth_",
+            "discord": "https://discord.com/invite/buildtheearth-net-690908396404080650",
+            "instagram": "buildtheearth_",
+            "twitch": "buildtheearth",
+            "tiktok": "@buildtheearth",
+            "facebook": "BuildTheEarth"
+        },
+        "crossplay": false,
+        "inactive": false,
+        "enriched": true
+    },
+    {
         "id": "bwhub",
         "name": "BWHub",
         "store": "https://bwhub.tebex.io/",
@@ -3939,6 +4033,40 @@
             "tiktok": "centrumpvp",
             "facebook": "centrumpvppl"
         },
+        "inactive": false,
+        "enriched": true
+    },
+    {
+        "id": "centryhcf",
+        "name": "CentryHCF Network",
+        "description": "Best old & new minecraft pvp",
+        "addresses": [
+            "centryhcf.com"
+        ],
+        "primaryAddress": "centryhcf.com",
+        "minecraftVersions": [
+            "1.7.10",
+            "1.7",
+            "1.8.9",
+            "1.8"
+        ],
+        "primaryMinecraftVersion": "1.8.9",
+        "primaryColor": "#ffd700",
+        "secondaryColor": "#ffffff",
+        "primaryLanguage": "en",
+        "languages": [
+            "es-EN",
+            "en"
+        ],
+        "primaryRegion": "NA",
+        "regions": [
+            "NA"
+        ],
+        "gameTypes": [
+            "PvP",
+            "HCF",
+            "UHC"
+        ],
         "inactive": false,
         "enriched": true
     },
@@ -7347,6 +7475,30 @@
         "enriched": true
     },
     {
+        "id": "elowyr",
+        "name": "Elowyr",
+        "description": "Serveur PvP/Factions 1.8+ Fran\u00e7ais",
+        "addresses": [
+            "elowyr.fr"
+        ],
+        "primaryAddress": "play.elowyr.fr",
+        "gameTypes": [
+            "Factions",
+            "PvP"
+        ],
+        "primaryColor": "#F1C40F",
+        "secondaryColor": "#F5E417",
+        "minecraftVersions": [
+            "1.8.9",
+            "1.8"
+        ],
+        "primaryMinecraftVersion": "1.8.9",
+        "website": "https://elowyr.fr",
+        "store": "https://boutique.elowyr.fr",
+        "inactive": false,
+        "enriched": false
+    },
+    {
         "id": "elyrion",
         "name": "Elyrion",
         "website": "https://elyrion.fr/",
@@ -8885,6 +9037,46 @@
         "enriched": true
     },
     {
+        "id": "flare",
+        "name": "FlarePvP",
+        "website": "https://flarepvp.xyz/",
+        "store": "https://store.flarepvp.xyz/",
+        "addresses": [
+            "flarepvp.xyz",
+            "xyris.fun"
+        ],
+        "primaryAddress": "flarepvp.xyz",
+        "primaryColor": "#ff6a00",
+        "secondaryColor": "#ff9245",
+        "minecraftVersions": [
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.19.4",
+        "gameTypes": [
+            "PvP"
+        ],
+        "socials": {
+            "discord": "https://discord.gg/invite/nAyZvAJqxC"
+        },
+        "inactive": false,
+        "enriched": false
+    },
+    {
         "id": "flaremc",
         "name": "FlareMC",
         "store": "https://store.flaremc.org/",
@@ -8957,6 +9149,40 @@
         },
         "inactive": false,
         "enriched": false
+    },
+    {
+        "id": "fluoritemc",
+        "name": "FluoriteMC",
+        "description": "Multi Gamemode Server!",
+        "addresses": [
+            "fluoritemc.com"
+        ],
+        "primaryAddress": "fluoritemc.com",
+        "minecraftVersions": [
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.19.4",
+        "primaryColor": "#c4fffe",
+        "secondaryColor": "#c4fffe",
+        "primaryLanguage": "en",
+        "languages": [
+            "en"
+        ],
+        "primaryRegion": "NA",
+        "regions": [
+            "NA"
+        ],
+        "gameTypes": [
+            "PvP"
+        ],
+        "crossplay": false,
+        "inactive": false,
+        "enriched": true
     },
     {
         "id": "foxcraft",
@@ -11093,7 +11319,7 @@
         "id": "hoplite",
         "name": "Hoplite",
         "website": "https://hoplite.gg/",
-        "store": "https://hoplite.tebex.io/",
+        "store": "https://store.hoplite.gg/",
         "description": "A Minecraft PvP network with innovative new gamemodes and proximity voice chat",
         "addresses": [
             "hoplite.gg"
@@ -11560,6 +11786,7 @@
         "name": "Hypixel",
         "website": "https://hypixel.net/",
         "store": "https://store.hypixel.net/",
+        "wiki": "https://wiki.hypixel.net/",
         "description": "Play the best Minecraft minigames for free!",
         "addresses": [
             "hypixel.net",
@@ -11617,9 +11844,16 @@
         "compliance": {
             "privacyPolicy": "https://hypixel.net/privacy",
             "termsOfService": "https://hypixel.net/terms",
-            "rules": "https://hypixel.net/rules"
+            "rules": "https://hypixel.net/rules",
+            "support": "https://support.hypixel.net"
         },
         "presentationVideo": "bkWHyz1MmaQ",
+        "tebexStore": {
+            "background": {
+                "lowerColor": "#16120C",
+                "upperColor": "#282320"
+            }
+        },
         "inactive": false,
         "enriched": true
     },
@@ -12635,6 +12869,65 @@
         "socials": {
             "discord": "https://discord.gg/rnuDWxDhuz"
         },
+        "inactive": false,
+        "enriched": true
+    },
+    {
+        "id": "kalwi",
+        "name": "Kandang Alwi",
+        "description": "Survival server with a variety of features.",
+        "website": "https://kandangalwi.me",
+        "store": "https://kandangalwi.me",
+        "addresses": [
+            "kalwi.id",
+            "kandangalwi.id"
+        ],
+        "primaryAddress": "kalwi.id",
+        "minecraftVersions": [
+            "1.8.9",
+            "1.8",
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.20.2",
+        "primaryColor": "#4180F4",
+        "secondaryColor": "#FFFFFF",
+        "primaryLanguage": "en",
+        "languages": [
+            "en"
+        ],
+        "primaryRegion": "AS",
+        "regions": [
+            "AS"
+        ],
+        "gameTypes": [
+            "Adventure",
+            "Survival",
+            "Minigames"
+        ],
+        "socials": {
+            "discord": "https://discord.gg/kandangalwi",
+            "tiktok": "kandangalwi.me",
+            "instagram": "kandangalwi.me",
+            "youtube": "kandangalwi"
+        },
+        "crossplay": true,
         "inactive": false,
         "enriched": true
     },
@@ -14696,6 +14989,7 @@
         "name": "MCC Island",
         "website": "https://mccisland.net/",
         "store": "https://store.mccisland.net/",
+        "merch": "https://mcc.store/",
         "description": "Play unique mini-games from Noxcrew's popular MC Championship event for FREE!",
         "addresses": [
             "mccisland.net",
@@ -14733,9 +15027,16 @@
         "compliance": {
             "privacyPolicy": "https://noxcrew.com/privacy-notice",
             "termsOfService": "https://noxcrew.com/terms-of-service",
-            "rules": "https://mcchampionship.com/help/rules/"
+            "rules": "https://mcchampionship.com/help/rules/",
+            "support": "https://support.mccisland.net"
         },
         "presentationVideo": "7c1zWQoitig",
+        "tebexStore": {
+            "background": {
+                "lowerColor": "#0E1525",
+                "upperColor": "#1C2844"
+            }
+        },
         "inactive": false,
         "enriched": true
     },
@@ -15398,6 +15699,63 @@
         },
         "inactive": false,
         "enriched": false
+    },
+    {
+        "id": "medoramc",
+        "name": "MedoraMC",
+        "website": "https://medoramc.it/",
+        "store": "https://store.medoramc.it/",
+        "description": "MedoraMC - Join now and play with your friends!",
+        "addresses": [
+            "medoramc.it"
+        ],
+        "primaryAddress": "play.medoramc.it",
+        "minecraftVersions": [
+            "1.7.10",
+            "1.7",
+            "1.8.9",
+            "1.8",
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.8.9",
+        "primaryColor": "#ae00ff",
+        "secondaryColor": "#cf2bcc",
+        "primaryLanguage": "it",
+        "languages": [
+            "it"
+        ],
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "gameTypes": [
+            "PvP",
+            "Survival",
+            "Minigames"
+        ],
+        "socials": {
+            "discord": "https://discord.com/invite/xJKMuW4aN2",
+            "telegram": "MedoraMCNetwork"
+        },
+        "inactive": false,
+        "enriched": true
     },
     {
         "id": "megamaa",
@@ -17353,6 +17711,56 @@
         },
         "inactive": false,
         "enriched": true
+    },
+    {
+        "id": "minerise",
+        "name": "MineRise",
+        "website": "https://minerise.net/",
+        "store": "https://minerise.net/store",
+        "addresses": [
+            "minerise.net"
+        ],
+        "primaryAddress": "play.minerise.net",
+        "primaryColor": "#fe3e29",
+        "secondaryColor": "#ffffff",
+        "minecraftVersions": [
+            "1.8.9",
+            "1.8",
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20"
+        ],
+        "primaryMinecraftVersion": "1.18.2",
+        "crossplay": false,
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "primaryLanguage": "tr",
+        "languages": [
+            "tr"
+        ],
+        "gameTypes": [
+            "Skyblock",
+            "Factions",
+            "Survival"
+        ],
+        "socials": {
+            "discord": "https://discord.gg/minerise"
+        },
+        "inactive": false,
+        "enriched": false
     },
     {
         "id": "mineriseco",
@@ -19430,6 +19838,46 @@
         "enriched": false
     },
     {
+        "id": "noskillworld",
+        "name": "NoSkillWorld",
+        "description": "An innovative french Minecraft server based on adventure and good atmosphere.",
+        "addresses": [
+            "noskillworld.fr"
+        ],
+        "primaryAddress": "play.noskillworld.fr",
+        "minecraftVersions": [
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.20.4",
+        "primaryColor": "#2C70BA",
+        "secondaryColor": "#1a1a1a",
+        "primaryLanguage": "fr",
+        "languages": [
+            "fr"
+        ],
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "gameTypes": [
+            "Adventure",
+            "Survival"
+        ],
+        "website": "https://play.noskillworld.fr",
+        "store": "https://shop.noskillworld.fr",
+        "wiki": "https://play.noskillworld.fr/wiki",
+        "socials": {
+            "twitter": "noskillworld",
+            "instagram": "noskillworld",
+            "tiktok": "noskillworld_mc",
+            "youtube": "noskillworld",
+            "discord": "https://discord.com/invite/cE4eHEZWrD"
+        },
+        "crossplay": false,
+        "inactive": false,
+        "enriched": true
+    },
+    {
         "id": "nucleoid",
         "name": "Nucleoid",
         "website": "https://nucleoid.xyz/",
@@ -21038,6 +21486,64 @@
         "enriched": true
     },
     {
+        "id": "pixworld",
+        "name": "Pixworld",
+        "description": "Serveur minecraft survie et skyblock",
+        "addresses": [
+            "play.pixworld.fr"
+        ],
+        "primaryAddress": "play.pixworld.fr",
+        "minecraftVersions": [
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.20.4",
+        "primaryColor": "#ba2323",
+        "secondaryColor": "#ffffff",
+        "primaryLanguage": "fr",
+        "languages": [
+            "fr"
+        ],
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "gameTypes": [
+            "Survival",
+            "Skyblock"
+        ],
+        "website": "https://pixworld.fr",
+        "store": "https://pixworld.fr/shop",
+        "compliance": {
+            "termsOfService": "https://pixworld.fr/p/cgu",
+            "rules": "https://pixworld.fr/p/reglement"
+        },
+        "presentationVideo": "DzqebfitZ6M",
+        "socials": {
+            "discord": "https://discord.com/invite/Z6aDjUW",
+            "youtube": "@pixworldserveur1721"
+        },
+        "crossplay": true,
+        "inactive": false,
+        "enriched": true
+    },
+    {
         "id": "planesky",
         "name": "PlaneSky",
         "website": "https://planesky.fr/",
@@ -21088,24 +21594,21 @@
     {
         "id": "planetearth",
         "name": "PlanetEarth",
-        "description": "Korean Earth Geopolitical Twony",
+        "description": "Minecraft Korean Earth Geopolitcal Towny Server",
         "addresses": [
-            "planetearth.kr",
-            "play.planetearth.kr"
+            "planetearth.kr"
         ],
         "primaryAddress": "planetearth.kr",
         "minecraftVersions": [
-            "1.18.1",
-            "1.18.2",
-            "1.18",
-            "1.19",
-            "1.19.2",
-            "1.19.3",
-            "1.19.4"
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
         ],
-        "primaryMinecraftVersion": "1.19.3",
-        "primaryColor": "#55FFFF",
-        "secondaryColor": "#00CE75",
+        "primaryMinecraftVersion": "1.20.1",
+        "primaryColor": "#00FF1D",
+        "secondaryColor": "#1486F5",
         "primaryLanguage": "ko",
         "languages": [
             "ko"
@@ -21624,7 +22127,7 @@
         "name": "PolarPvP",
         "description": "El servidor m\u00e1s fr\u00edo de HCF!",
         "addresses": [
-            "polarpvp.live"
+            "polarpvp.cc"
         ],
         "primaryAddress": "polarpvp.live",
         "minecraftVersions": [
@@ -22077,6 +22580,12 @@
             "discord": "https://discord.com/invite/PP",
             "youtube": "UC12gU3J4gMWRw3ZAxBlRQGg",
             "tiktok": "purpleprisonofficial"
+        },
+        "tebexStore": {
+            "background": {
+                "lowerColor": "#110B18",
+                "upperColor": "#24182E"
+            }
         },
         "inactive": false,
         "enriched": true
@@ -25068,6 +25577,52 @@
         "enriched": true
     },
     {
+        "id": "skyline",
+        "name": "Skyline",
+        "website": "https://skyline-network.com/",
+        "store": "https://skyline.tebex.io/",
+        "addresses": [
+            "skyline-network.com"
+        ],
+        "primaryAddress": "skyline-network.com",
+        "primaryColor": "#add8e6",
+        "secondaryColor": "#87cefa",
+        "minecraftVersions": [
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.16.5",
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "gameTypes": [
+            "PvP",
+            "Minigames"
+        ],
+        "socials": {
+            "discord": "https://discord.gg/gPDH7yBTwq"
+        },
+        "inactive": false,
+        "enriched": false
+    },
+    {
         "id": "skylymc",
         "name": "Skyly",
         "description": "Large French FFA Game server",
@@ -26716,6 +27271,65 @@
         "enriched": true
     },
     {
+        "id": "sunsetpvp",
+        "name": "SunsetPvP",
+        "website": "https://sunsetpvp.it/",
+        "store": "https://store.sunsetpvp.it/",
+        "description": "SunsetPvP is the best KitPvP-OP in italy.",
+        "addresses": [
+            "sunsetpvp.it"
+        ],
+        "primaryAddress": "play.sunsetpvp.it",
+        "minecraftVersions": [
+            "1.7.10",
+            "1.7",
+            "1.8.9",
+            "1.8",
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.8.9",
+        "primaryColor": "#e9aa1b",
+        "secondaryColor": "#f9fc5e",
+        "primaryLanguage": "it",
+        "languages": [
+            "it"
+        ],
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "gameTypes": [
+            "PvP",
+            "Adventure",
+            "Minigames"
+        ],
+        "socials": {
+            "discord": "https://discord.com/invite/pXD45WrxAz",
+            "instagram": "sunsetpvp.it",
+            "telegram": "SunsetPvP",
+            "tiktok": "sunsetpvp.it"
+        },
+        "inactive": false,
+        "enriched": true
+    },
+    {
         "id": "superawesome",
         "name": "SuperAwesome",
         "website": "https://superawesome.dk/",
@@ -27320,6 +27934,67 @@
         "socials": {
             "twitter": "TaliaNetwork",
             "discord": "https://discord.com/invite/crdqzRNDNX"
+        },
+        "inactive": false,
+        "enriched": true
+    },
+    {
+        "id": "techge3ks",
+        "name": "TechGE3Ks",
+        "website": "https://minecraft.techge3ks.com/",
+        "description": "Minecraft's Original Prison Server",
+        "store": "https://shop.techge3ks.com/",
+        "addresses": [
+            "techge3ks.com"
+        ],
+        "primaryAddress": "play.techge3ks.com",
+        "primaryColor": "#6dd86e",
+        "secondaryColor": "#020001",
+        "minecraftVersions": [
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.20.4",
+        "crossplay": true,
+        "primaryRegion": "NA",
+        "regions": [
+            "NA"
+        ],
+        "primaryLanguage": "en",
+        "languages": [
+            "en"
+        ],
+        "gameTypes": [
+            "Prison",
+            "PvP",
+            "Parkour"
+        ],
+        "socials": {
+            "twitter": "TechGE3KsLLC",
+            "discord": "https://discord.gg/techge3ks",
+            "reddit": "techge3ks",
+            "tiktok": "techge3ks",
+            "facebook": "TechGE3Ks"
+        },
+        "compliance": {
+            "privacyPolicy": "https://shop.techge3ks.com/terms/privacy",
+            "termsOfService": "https://shop.techge3ks.com/terms/checkout"
         },
         "inactive": false,
         "enriched": true
@@ -31623,6 +32298,46 @@
         "enriched": true
     },
     {
+        "id": "zenithmc",
+        "name": "ZenithMC Network",
+        "description": "Competitive Minecraft PvP",
+        "addresses": [
+            "zenithmc.me"
+        ],
+        "primaryAddress": "zenithmc.me",
+        "minecraftVersions": [
+            "1.7.10",
+            "1.7",
+            "1.8.9",
+            "1.8"
+        ],
+        "primaryMinecraftVersion": "1.8.9",
+        "primaryColor": "#961b12",
+        "secondaryColor": "#ffffff",
+        "primaryLanguage": "en",
+        "languages": [
+            "en"
+        ],
+        "primaryRegion": "NA",
+        "regions": [
+            "NA",
+            "EU",
+            "SA"
+        ],
+        "gameTypes": [
+            "PvP"
+        ],
+        "website": "https://www.zenithmc.me",
+        "store": "https://store.zenihtmc.me",
+        "socials": {
+            "twitter": "ZenithMC_me",
+            "discord": "https://discord.com/invite/Uz8btWKYzu"
+        },
+        "crossplay": false,
+        "inactive": false,
+        "enriched": true
+    },
+    {
         "id": "zenpvp",
         "name": "ZenPvP",
         "website": "https://www.zenpvp.net/",
@@ -31786,6 +32501,61 @@
         ],
         "socials": {
             "telegram": "zephiralmc"
+        },
+        "inactive": false,
+        "enriched": false
+    },
+    {
+        "id": "zeromc",
+        "name": "ZeroMC",
+        "website": "https://www.zeromc.it/",
+        "store": "https://store.zeromc.it/",
+        "description": "ZeroMC. Join our Network and enjoy all our modes!",
+        "addresses": [
+            "zeromc.it"
+        ],
+        "primaryAddress": "play.zeromc.it",
+        "minecraftVersions": [
+            "1.8.9",
+            "1.8",
+            "1.12.2",
+            "1.12",
+            "1.16.5",
+            "1.16",
+            "1.17.1",
+            "1.17",
+            "1.18.1",
+            "1.18.2",
+            "1.18",
+            "1.19",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4"
+        ],
+        "primaryMinecraftVersion": "1.17.1",
+        "primaryColor": "#8b15ff",
+        "secondaryColor": "#ffffff",
+        "primaryLanguage": "it",
+        "languages": [
+            "it"
+        ],
+        "primaryRegion": "EU",
+        "regions": [
+            "EU"
+        ],
+        "gameTypes": [
+            "PvP",
+            "Skyblock"
+        ],
+        "socials": {
+            "discord": "https://discord.com/invite/EbxjeRka22",
+            "tiktok": "zeromc.it",
+            "instagram": "play.zeromc.it"
         },
         "inactive": false,
         "enriched": false
