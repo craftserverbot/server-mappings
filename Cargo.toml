@@ -1,6 +1,6 @@
 [package]
 name = "server-mappings"
-version = "2.0.0+2024-03-31"
+version = "2.0.0+2024-07-15"
 edition = "2021"
 publish = false
 
