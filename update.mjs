@@ -1,7 +1,5 @@
 #!/usr/bin/env zx
 
-import "zx/globals";
-
 $.env.CARGO_TERM_COLOR = "always";
 
 // download servers.json
