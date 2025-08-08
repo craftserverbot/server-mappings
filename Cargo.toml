@@ -3,6 +3,7 @@ name = "server-mappings"
 version = "2.0.0+2025-08-07"
 edition = "2021"
 publish = false
+license = "AGPL-3.0-only"
 
 [build-dependencies]
 phf_codegen = "0.11.1"
